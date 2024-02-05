@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import HeroWithStickyNavbar from "./HeroWithStickyNavbar";
 import AboutComponent from "./AboutComponent";

@@ -147,7 +147,3 @@ const AboutComponent = () => {
 };
 
 export default AboutComponent;
-
-      {
-        /* Add Icons to Services Section*/
-      }
