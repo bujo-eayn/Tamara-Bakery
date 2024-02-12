@@ -3,56 +3,58 @@ export default function Products() {
     <section id="products" className="py-6 dark:bg-white dark:text-gray-50">
       <div className="container mx-auto p-4">
         {/* Section Title */}
-        <h2 className="text-2xl font-extrabold text-black text-center mb-6">Chef Specials</h2>
+        <h2 className="text-2xl font-extrabold text-black text-center mb-6">
+          Chef Specials
+        </h2>
 
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
           <img
-            src="https://source.unsplash.com/random/301x301/"
+            src="/img/birthday_cake.jpeg"
             alt=""
             className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?0"
+            src="/img/queen_cakes.jpeg"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?1"
+            src="/img/bread.jpeg"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?2"
+            src="/img/cookies.jpeg"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?3"
+            src="/img/cake_manu.jpeg"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?4"
+            src="/img/donuts.jpeg"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?5"
+            src="/img/cake_side.jpeg"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?6"
+            src="/img/cake_birthday.jpeg"
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-            src="https://source.unsplash.com/random/200x200/?7"
+            src="/img/cupcake.jpeg"
           />
           <img
-            src="https://source.unsplash.com/random/302x302/"
+            src="/img/carrot_cake.jpeg"
             alt=""
             className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square"
           />

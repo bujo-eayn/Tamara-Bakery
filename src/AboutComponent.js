@@ -76,7 +76,7 @@ const AboutComponent = () => {
             {" "}
             {/* Centering the content */}
             <img
-              src="https://source.unsplash.com/featured/?cake"
+              src="/img/about.jpeg"
               alt="Baked Cake"
               className="rounded-lg shadow-lg"
             />

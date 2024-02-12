@@ -4,32 +4,27 @@ export default function Footer() {
       className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100"
       style={{ backgroundColor: "#FFFFFF" }}
     >
-      <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0 lg:items-center">
+      <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:space-y-0 lg:space-x-4 lg:flex-row lg:items-center">
         {/* Left side divs */}
-        <div className="flex-1 flex justify-end space-x-8">
+        <div className="flex-1 flex flex-col lg:flex-row justify-end lg:space-x-8 space-y-8 lg:space-y-0">
           <div className="space-y-3">
             <h3 className="tracking-widest uppercase dark:text-gray-50">
               Product
             </h3>
             <ul className="space-y-1">
               <li>
-                <a rel="noopener noreferrer" href="#">
-                  Features
+                <a rel="noopener noreferrer" href="#products">
+                  Gallery
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="#">
-                  Integrations
+                <a rel="noopener noreferrer" href="#about">
+                  About
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  FAQ
+                <a rel="noopener noreferrer" href="#team">
+                  Team
                 </a>
               </li>
             </ul>
@@ -54,11 +49,14 @@ export default function Footer() {
         </div>
 
         {/* Center Logo */}
-        <div id="footer-logo" className="flex-1 flex justify-center lg:w-1/3">
+        <div
+          id="footer-logo"
+          className="flex-1 flex justify-center lg:w-1/3 my-6 lg:my-0"
+        >
           <a
             rel="noopener noreferrer"
             href="#"
-            className="flex justify-center space-x-3 lg:justify-center"
+            className="flex justify-center space-x-3"
           >
             <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
               <img src="/logo.png" alt="Logo" className="h-8 mr-2" />
@@ -73,13 +71,13 @@ export default function Footer() {
         </div>
 
         {/* Right side divs including Social Media Icons */}
-        <div className="flex-1 flex justify-start space-x-8">
+        <div className="flex-1 flex flex-col lg:flex-row justify-start lg:space-x-8 space-y-8 lg:space-y-0">
           <div className="space-y-3">
-            <h3 className="uppercase dark:text-gray-50">Developers</h3>
+            <h3 className="uppercase dark:text-gray-50">Community</h3>
             <ul className="space-y-1">
               <li>
                 <a rel="noopener noreferrer" href="#">
-                  Public API
+                  Vacancies
                 </a>
               </li>
               <li>
@@ -98,10 +96,11 @@ export default function Footer() {
             <div className="uppercase dark:text-gray-50">Social media</div>
             <div className="flex space-x-3">
               {/* Social media icons */}
-              {/* Place your social media icons here */}
-              {/* Example: */}
+              {/* Example with placeholder links */}
               <a href="#" className="flex items-center p-1">
                 {/* Facebook Icon */}
+                {/* Replace href with your actual Facebook page link */}
+
                 <a href="#" className="flex items-center p-1">
                   <svg
                     fill="currentColor"
@@ -114,8 +113,11 @@ export default function Footer() {
                   </svg>
                 </a>
               </a>
+
               <a href="#" className="flex items-center p-1">
                 {/* Twitter Icon */}
+                {/* Replace href with your actual Twitter profile link */}
+
                 <a href="#" className="flex items-center p-1">
                   <svg
                     fill="currentColor"
@@ -128,8 +130,11 @@ export default function Footer() {
                   </svg>
                 </a>
               </a>
+
               <a href="#" className="flex items-center p-1">
                 {/* Instagram Icon */}
+                {/* Replace href with your actual Instagram profile link */}
+
                 <a href="#" className="flex items-center p-1">
                   <svg
                     fill="currentColor"
@@ -152,6 +157,7 @@ export default function Footer() {
           <a
             href="https://github.com/bujo-eayn"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ color: "blue" }}
           >
             Job Ian

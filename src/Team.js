@@ -18,67 +18,98 @@ export default function Team() {
             <img
               alt=""
               className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-              src="https://source.unsplash.com/100x100/?portrait?0"
+              src="/img/female.jpg"
             />
             <p className="text-xl font-semibold text-black leadi">
-              Leroy Jenkins 1
+              Cynthia Awino
             </p>
-            <p className="dark:text-gray-400">Design Specialist</p>
+            {/* <p className="dark:text-gray-400">Design Specialist</p> */}
           </div>
           <div className="flex flex-col justify-center m-8 text-center">
             <img
               alt=""
               className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-              src="https://source.unsplash.com/100x100/?portrait?1"
+              src="/img/female.jpg"
             />
             <p className="text-xl font-semibold text-black leadi">
-              Leroy Jenkins 2
+              Esther Awino
             </p>
-            <p className="dark:text-gray-400">Artisan Bread Specialist</p>
+            {/* <p className="dark:text-gray-400">Artisan Bread Specialist</p> */}
           </div>
           <div className="flex flex-col justify-center m-8 text-center">
             <img
               alt=""
               className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-              src="https://source.unsplash.com/100x100/?portrait?2"
+              src="/img/male.jpg"
             />
-            <p className="text-xl font-semibold text-black leadi">
-              Leroy Jenkins 3
-            </p>
-            <p className="dark:text-gray-400">Sweet Creations</p>
+            <p className="text-xl font-semibold text-black leadi">Aaron Ouma</p>
+            {/* <p className="dark:text-gray-400">Sweet Creations</p> */}
           </div>
           <div className="flex flex-col justify-center m-8 text-center">
             <img
               alt=""
               className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-              src="https://source.unsplash.com/100x100/?portrait?3"
+              src="/img/male.jpg"
             />
             <p className="text-xl font-semibold text-black leadi">
-              Leroy Jenkins 4
+              Stephen Maloba
             </p>
-            <p className="dark:text-gray-400">Barista</p>
+            {/* <p className="dark:text-gray-400">Barista</p> */}
           </div>
           <div className="flex flex-col justify-center m-8 text-center">
             <img
               alt=""
               className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-              src="https://source.unsplash.com/100x100/?portrait?4"
+              src="/img/male.jpg"
             />
             <p className="text-xl font-semibold text-black leadi">
-              Leroy Jenkins 5
+              Lenard Ngwabe
             </p>
-            <p className="dark:text-gray-400">Master Baker & Pastry Chef</p>
+            {/* <p className="dark:text-gray-400">Master Baker & Pastry Chef</p> */}
           </div>
           <div className="flex flex-col justify-center m-8 text-center">
             <img
               alt=""
               className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-              src="https://source.unsplash.com/100x100/?portrait?5"
+              src="/img/male.jpg"
             />
             <p className="text-xl font-semibold text-black leadi">
-              Leroy Jenkins 6
+              Emmanuel Oduor
             </p>
-            <p className="dark:text-gray-400">Manager & Customer Relations</p>
+            {/* <p className="dark:text-gray-400">Manager & Customer Relations</p> */}
+          </div>
+          <div className="flex flex-col justify-center m-8 text-center">
+            <img
+              alt=""
+              className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+              src="/img/female.jpg"
+            />
+            <p className="text-xl font-semibold text-black leadi">
+              Electine Nyongesa
+            </p>
+            {/* <p className="dark:text-gray-400">Manager & Customer Relations</p> */}
+          </div>
+          <div className="flex flex-col justify-center m-8 text-center">
+            <img
+              alt=""
+              className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+              src="/img/female.jpg"
+            />
+            <p className="text-xl font-semibold text-black leadi">
+              Roselyne Makokha
+            </p>
+            {/* <p className="dark:text-gray-400">Manager & Customer Relations</p> */}
+          </div>
+          <div className="flex flex-col justify-center m-8 text-center">
+            <img
+              alt=""
+              className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+              src="/img/female.jpg"
+            />
+            <p className="text-xl font-semibold text-black leadi">
+              Lilian Adhiambo
+            </p>
+            {/* <p className="dark:text-gray-400">Manager & Customer Relations</p> */}
           </div>
         </div>
       </div>
