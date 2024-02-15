@@ -28,7 +28,7 @@ export default App;
 
 /* TO DO
 - Incorporate the changes suggested by lily +
-- Make entire Web Mobile useable
-- Add a form to the contact page for users to send messages directly to the team. Netlify Form +
+- Make entire Web Mobile useable +
+- Add a form to the contact page for users to send messages directly to the team. Netlify Form 
 
 */
